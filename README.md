@@ -1,2 +1,1 @@
-# brunswik-lens-mlm
- Implementation of Brunswik's Lens Model in Multi-Modal LLMs
+# Brunswik's Lens Model in Multi-Modal LLMs
