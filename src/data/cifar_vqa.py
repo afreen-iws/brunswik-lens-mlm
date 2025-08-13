@@ -26,7 +26,7 @@ def build_vocab(ds_split, K=10):
     a2id = {a:i for i,a in enumerate(vocab)}
     return a2id, vocab
 
-from .encoders import embed_image_clip, embed_text_distilbert
+from src.encoders import embed_image_clip, embed_text_distilbert
 from ..cues import cue_semantic, cue_object, cue_relation
 
 class VQACIFARDataset(Dataset):

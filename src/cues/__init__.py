@@ -1,6 +1,6 @@
 
 import re, numpy as np, torch
-from .encoders import embed_image_clip, embed_text_clip
+from src.encoders import embed_image_clip, embed_text_clip
 
 STOP = set("the a an is are was were on in at to with and or of for this that where who what which how many".split())
 
